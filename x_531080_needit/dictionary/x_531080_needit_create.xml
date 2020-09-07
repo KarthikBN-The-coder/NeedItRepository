@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Create " max_length="40" name="x_531080_needit_create" sizeclass="0" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="20" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="PassWord" mandatory="true" max_length="15" name="password" type="password"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="New IP Address (Validated IPV4, IPV6)" max_length="40" name="u_ip_addr_2" type="ip_addr"/>
+    </element>
+</database>
