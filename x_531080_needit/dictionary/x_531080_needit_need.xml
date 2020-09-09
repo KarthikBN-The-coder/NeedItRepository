@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="Need" max_length="40" name="x_531080_needit_need" sizeclass="1" type="collection">
+        <element label="Caller Name" max_length="15" name="caller_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="0" value="software"/>
+                <element inactive_on_update="false" label="Hardware" sequence="1" value="hardware"/>
+                <element inactive_on_update="false" label="Network" sequence="2" value="network"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Email" max_length="30" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="On Behalf" max_length="32" name="on_behalf" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub category" max_length="40" name="sub_category" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Resolved" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Solved" sequence="3" value="solved"/>
+            </choice>
+        </element>
+    </element>
+</database>

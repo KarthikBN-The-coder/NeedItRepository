@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedItPractiseDebugging</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   try{
+		var x= 7;
+		jslog("This message is from jslog().");
+		jslog("The value of x = " + x);
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+				
+						
+ g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occurred: ' + err.message);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-08 10:10:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5e35ab2074b5410b639fc018c1ed0eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedItPractiseDebugging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
+        <sys_update_name>sys_script_client_b5e35ab2074b5410b639fc018c1ed0eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-08 10:14:45</sys_updated_on>
+        <table>x_531080_needit_create</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</application>
+        <file_path/>
+        <instance_id>bdec828cdb4b881452cec59705961905</instance_id>
+        <instance_name>dev100644</instance_name>
+        <name>sys_script_client_b5e35ab2074b5410b639fc018c1ed0eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;assigned_to&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedItPractiseDebugging&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   try{
+		var x= 7;
+		jslog("This message is from jslog().");
+		jslog("The value of x = " + x);
+		jslog("The NeedIt State value = " + g_form.getValue('state'));
+		jslog("The currently logged in user is " + g_user.getFullName() + ".");
+				
+						
+ g_form.setValue('short_description',g_form.getValue('short_description') + " -  Updated field value");
+	}
+	catch(err){
+		jslog('A JavaScript runtime error occurred: ' + err.message);
+   }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-08 10:10:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b5e35ab2074b5410b639fc018c1ed0eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedItPractiseDebugging&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_531080_needit"&gt;856aca3507c3d010b639fc018c1ed030&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;856aca3507c3d010b639fc018c1ed030&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b5e35ab2074b5410b639fc018c1ed0eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-08 10:14:45&lt;/sys_updated_on&gt;&lt;table&gt;x_531080_needit_create&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2105642841</payload_hash>
+        <record_name>NeedItPractiseDebugging</record_name>
+        <reverted_from/>
+        <source>f0615a72074b5410b639fc018c1ed0ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-08 10:14:45</sys_created_on>
+        <sys_id>ac95daf2074b5410b639fc018c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1746d35f1720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-08 10:14:45</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e495daf2594b541017546d770aeb657c</update_guid>
+        <update_guid_history>e495daf2594b541017546d770aeb657c:-2105642841,9675d2f24c4b54104cb03dd98ae45620:-1520675813,b774d6f2ba4b5410b014d9b6cd92e640:-1127751465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-08 10:59:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7a88b6ff2e1742f0878a22d947ec6a99</sys_id>
+        <sys_metadata>b5e35ab2074b5410b639fc018c1ed0eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedItPractiseDebugging</sys_name>
+        <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
+        <sys_parent display_value="Create  Need">8f7a8e3507c3d010b639fc018c1ed04d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
+        <sys_scope_delete display_value="">1ad2167ad6994b61953150eb06a3a2b1</sys_scope_delete>
+        <sys_update_name>sys_script_client_b5e35ab2074b5410b639fc018c1ed0eb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b5e35ab2074b5410b639fc018c1ed0eb">ac95daf2074b5410b639fc018c1ed07c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-08 10:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

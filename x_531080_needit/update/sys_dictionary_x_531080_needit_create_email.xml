@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-05 06:53:53</sys_created_on>
-        <sys_id>60ca827507c3d010b639fc018c1ed088</sys_id>
+        <sys_id>b6726d6e074f1410b639fc018c1ed0fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Email</sys_name>
         <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
         <sys_update_name>sys_dictionary_x_531080_needit_create_email</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-05 06:53:53</sys_updated_on>
+        <sys_updated_on>2020-09-07 11:53:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
