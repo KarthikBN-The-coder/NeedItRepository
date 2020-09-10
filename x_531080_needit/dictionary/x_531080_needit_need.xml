@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" extends="task" label="Need" max_length="40" name="x_531080_needit_need" sizeclass="5" type="collection">
+    <element attributes="live_feed=true" extends="task" label="Need" max_length="40" name="x_531080_needit_need" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Caller Email" max_length="40" name="caller_email" type="string"/>
         <element label="Caller Name" max_length="15" name="caller_name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
