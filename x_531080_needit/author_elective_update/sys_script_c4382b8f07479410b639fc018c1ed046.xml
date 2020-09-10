@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_531080_needit_need</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DemoRule</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var num1=10;
+	var num2=12;
+	AddNums(num1,num2);
+	gs.addInfoMessage('From Business Rule');
+// 	gs.addInfoMessage('please select current date');
+// 	current.setAbortAction('true');
+// 	var rightnow = new GlideDateTime();
+// 	var date = new GlideDateTime(current.date);
+// 	if(date.before(rightnow) || date.after(rightnow))
+// 		{
+// 			gs.addErrorMessage('You have to select present date');
+// 			current.setAbortAction('true');
+// 		}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-09 10:55:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4382b8f07479410b639fc018c1ed046</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>DemoRule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
+        <sys_update_name>sys_script_c4382b8f07479410b639fc018c1ed046</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 07:16:38</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=c4382b8f07479410b639fc018c1ed046"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</application>
+        <file_path/>
+        <instance_id>bdec828cdb4b881452cec59705961905</instance_id>
+        <instance_name>dev100644</instance_name>
+        <name>sys_script_c4382b8f07479410b639fc018c1ed046</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_531080_needit_need&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;DemoRule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var num1=10;
+	var num2=12;
+	AddNums(num1,num2);
+	gs.addInfoMessage('From Business Rule');
+// 	gs.addInfoMessage('please select current date');
+// 	current.setAbortAction('true');
+// 	var rightnow = new GlideDateTime();
+// 	var date = new GlideDateTime(current.date);
+// 	if(date.before(rightnow) || date.after(rightnow))
+// 		{
+// 			gs.addErrorMessage('You have to select present date');
+// 			current.setAbortAction('true');
+// 		}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-09 10:55:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c4382b8f07479410b639fc018c1ed046&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;DemoRule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_531080_needit"&gt;856aca3507c3d010b639fc018c1ed030&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;856aca3507c3d010b639fc018c1ed030&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_c4382b8f07479410b639fc018c1ed046&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-10 07:16:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c4382b8f07479410b639fc018c1ed046"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1771330161</payload_hash>
+        <record_name>DemoRule</record_name>
+        <reverted_from/>
+        <source>b992e52e074f1410b639fc018c1ed05d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 07:16:39</sys_created_on>
+        <sys_id>cbffbbdf07cf9410b639fc018c1ed0ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17476df98150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 07:16:39</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>83ffbbdf9fcf9410f08169cabc1d8eae</update_guid>
+        <update_guid_history>83ffbbdf9fcf9410f08169cabc1d8eae:1771330161,5f0f7fdfb0cf941070dabcf727319ffe:1047748659,c75e37df3fcf941014071eb132728e24:26347507,df0e33df85cf9410d2461d6c9d1f17d3:768487475,e80df39f17cf9410464e7a73e7dfadf8:1771330161,f4ecf39f93cf94106cd94b15ada50733:2119865560,db4037c3988794105973b59bd5f7bab3:-593272287,769f27c3d6879410c60969680659876e:1313321252,e15f63c336879410326e0aae3c276283:1872514734,e83fef83d58794106e7643ba66b8efff:-252064126,08bee7839487941040ad40fddc1515a9:385869279,eacd2f43c18794101c5bbeb16c0bdbb4:2052307257,875d2f43668794101bc640f485aa8ead:-317366207,2e1deb03a98794104d014fdf9865a403:-715015473,3ceb6f03b887941077f3cdd1302bcfec:-781017502,e5cb2f03f987941033c7a6be655be2d3:-133014128,f3a927cf32479410630697a8586a7b9c:-781017502,cc49278ffd47941077a2b7781cd16b4c:270659873,2a09278fd24794105c6c7050a7dc5671:-1590453226,1f982b8fde47941045349339fdbb13ff:-2141570172,cd68278f88479410abfad888e84806a2:-1851637537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 07:23:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>02dd27dcab4144cf8608e656d245ac21</sys_id>
+        <sys_metadata>c4382b8f07479410b639fc018c1ed046</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DemoRule</sys_name>
+        <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
+        <sys_parent display_value="Need">20f89eb6074b5410b639fc018c1ed08d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
+        <sys_scope_delete display_value="">1ad2167ad6994b61953150eb06a3a2b1</sys_scope_delete>
+        <sys_update_name>sys_script_c4382b8f07479410b639fc018c1ed046</sys_update_name>
+        <sys_update_version display_value="sys_script_c4382b8f07479410b639fc018c1ed046">cbffbbdf07cf9410b639fc018c1ed0ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 07:23:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

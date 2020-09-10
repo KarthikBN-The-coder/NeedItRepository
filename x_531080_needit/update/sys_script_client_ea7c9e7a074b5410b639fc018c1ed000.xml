@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	alert('OnLoad');
+	alert('OnLoad Script is Executing');
 	if(g_form.isNewRecord())
 		{
 			g_form.setValue('caller_name',g_user.getFullName());
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ea7c9e7a074b5410b639fc018c1ed000</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>NeedOnLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
         <sys_update_name>sys_script_client_ea7c9e7a074b5410b639fc018c1ed000</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-09 06:12:41</sys_updated_on>
+        <sys_updated_on>2020-09-09 07:04:52</sys_updated_on>
         <table>x_531080_needit_need</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

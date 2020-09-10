@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_531080_needit_need</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DebugBusinessRule</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var msg = current.getValue("decsription");
+ current.short_description = "This text set by the Business Rules.";
+var myNum = current.state;
+	
+var num1=10;
+var num2=12;
+AddNums(num1,num2);
+gs.addInfoMessage('From Business Rule');
+// 	gs.addInfoMessage('please select current date');
+// 	current.setAbortAction('true');
+// 	var rightnow = new GlideDateTime();
+// 	var date = new GlideDateTime(current.date);
+// 	if(date.before(rightnow) || date.after(rightnow))
+// 		{
+// 			gs.addErrorMessage('You have to select present date');
+// 			current.setAbortAction('true');
+// 		}
+// 	gs.info("This is an INFO message from NeedIt App");
+// 	gs.warn("This is a WARN message from NeedIt App");
+// 	gs.error("This is an ERROR message from NeedIt App");
+// 	gs.debug("This is a DEBUG message from NeedIt App");
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 06:26:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c643bb9707cf9410b639fc018c1ed052</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>DebugBusinessRule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_531080_needit">856aca3507c3d010b639fc018c1ed030</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">856aca3507c3d010b639fc018c1ed030</sys_scope>
+        <sys_update_name>sys_script_c643bb9707cf9410b639fc018c1ed052</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 07:40:27</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c643bb9707cf9410b639fc018c1ed052"/>
+</record_update>
